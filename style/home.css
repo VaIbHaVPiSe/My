@@ -1,0 +1,33 @@
+
+#home {
+    /* background-image: url(/static/images/homebg.jfif); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    /* filter: brightness(50%); */
+    position: relative;
+    color: var(--head-text);
+}
+#home2 {
+    backdrop-filter: brightness(100%);
+    padding: 40px 10%;
+}
+#c {
+    z-index: -999;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+#home-text{
+    filter: brightness(100%);
+    animation: fadeFromBottom 0.7s ease-out;
+
+}
